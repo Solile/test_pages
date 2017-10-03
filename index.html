@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <link rel="stylesheet" type="text/css" href="mystyle.css">
+        <meta charset="utf=8">
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>风流工作室登陆页面</title>
+        <style>
+            img {
+                border-radius: 9px;
+            }
+            </style>
+    </head>
+        <header>
+            <img src="1.png" alt="风流logo"width="112" height="63" class="img-polaroid">
+            <em style="color:#5986D3;font-size:x-large">遇 见 风 流 ，约 见 更 好 的 自 己<img src="0x2728.png"></em>
+        </header>
+        <nav style="text-align:right";font-size="xx-large">
+                <canvas id="myCanvas" width="450" height="100"></canvas>
+                <script>
+                    var c=document.getElementById("myCanvas");
+                    var ctx=c.getContext("2d");
+                    ctx.font="70px Arial";
+                    ctx.strokeText("风流",18,62);
+                    var c=document.getElementById("myCanvas");
+                    var ctx=c.getContext("2d");
+                    ctx.font="22px Arial";
+                    ctx.fillText("工作室",145,77);
+                    var c=document.getElementById("myCanvas");
+                    var ctx=c.getContext("2d");
+                    ctx.font="16px Arial";
+                    ctx.fillText("We are Waiting for You...",195,42);   
+                    </script>       
+        </nav>
+    <body style="background:url(8.png)"> 
+        <div class="container-flud">
+            <div class="row">
+            <div class="span8">
+                <canvas id="myCanvas1" width="550" height="500"></canvas>
+                <script>
+                var c=document.getElementById("myCanvas1");
+                var ctx=c.getContext("2d");
+                ctx.beginPath();
+                ctx.arc(200,19,40,0,2*Math.PI);
+                ctx.stroke();
+                var c=document.getElementById("myCanvas1");
+                var ctx=c.getContext("2d");
+                ctx.beginPath();
+                ctx.arc(322,72,31,0,2*Math.PI);
+                ctx.stroke();
+                var c=document.getElementById("myCanvas1");
+                var ctx=c.getContext("2d");
+                ctx.beginPath();
+                ctx.arc(94,118,45,0,2*Math.PI);  
+                ctx.stroke();
+                var c=document.getElementById("myCanvas1");
+                var ctx=c.getContext("2d");
+                ctx.beginPath();
+                ctx.arc(250,27,20,0,2*Math.PI);
+                ctx.stroke();
+                var c=document.getElementById("myCanvas1");
+                var ctx=c.getContext("2d");
+                ctx.beginPath();
+                ctx.arc(180,250,35,0,2*Math.PI);
+                ctx.stroke();
+                var c=document.getElementById("myCanvas1");
+                var ctx=c.getContext("2d");
+                ctx.beginPath();
+                ctx.arc(270,280,20,0,2*Math.PI);
+                ctx.stroke();
+                var c=document.getElementById("myCanvas1");
+                var ctx=c.getContext("2d");
+                ctx.beginPath();
+                ctx.arc(140,450,49,0,2*Math.PI);
+                ctx.stroke();
+                var c=document.getElementById("myCanvas1");
+                var ctx=c.getContext("2d");
+                ctx.beginPath();
+                ctx.arc(84,409,33,0,2*Math.PI);
+                ctx.stroke();
+                var c=document.getElementById("myCanvas1");
+                var ctx=c.getContext("2d");
+                ctx.beginPath();
+                ctx.arc(400,490,59,0,2*Math.PI);
+                ctx.stroke();
+                </script>
+            </div>
+        <div class="span5">
+            <div id="1">
+            <article style="text-align:center;background-color:#F2FFFD;height:350px;border:2px solid #A9C0E9">
+            <br/><br/><form style="font-family:'Times New Roman', Times, serif;font-size:xx-large;
+            color:#1A1B1B">*LOG IN*</form>
+            <br/> <br/>
+            <form style="font-family:Arial, Helvetica, sans-serif
+            ;font-size:medium;color:midnightblue">
+            <i class="icon-user"></i><input type="text" name="username"value=""
+            maxlength="13" size="30" placeholder="用户名"><br/><br/>
+            <i class="icon-qrcode"></i><input type="password" name="pwd"value=""
+            maxlength="15" size="30"placeholder="密码..."><br/></form>
+            <form style="font-size:x-small;color:#080831"><b/><input type="checkbox"> 
+            记住我<img src="0x1f463.png"alt="我曾来过"></form>
+            <br/><br/>
+            <button type="submit" class="btn btn-success">登录</button>
+        </article></div>
+            </div>
+        </div>    
+    </body>
+</html>
